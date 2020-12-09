@@ -1,0 +1,1 @@
+var word = ["","",""]; for (var a =0; a < word.length; a++) { let f = msg.replace(/[^ㄱ-ㅎㅏ-ㅣ가-힣\w]/g,""); if (f.indexOf(word[a])!=-1) { replier.reply("욕 감지."); } }
